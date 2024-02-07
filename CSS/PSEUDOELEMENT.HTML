@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 30px;
+        }
+        .one::first-line{
+          color: red;
+        }
+        .two::first-letter{
+            color: blueviolet;
+        }
+        .three::before{
+            content: url(
+               https://c4.wallpaperflare.com/wallpaper/39/346/426/digital-art-men-city-futuristic-night-hd-wallpaper-preview.jpg);}
+             
+               .four::after{
+            content: url( https://c4.wallpaperflare.com/wallpaper/1020/1/213/world-of-warcraft-battle-for-azeroth-video-games-warcraft-alliance-wallpaper-preview.jpg);
+        }
+
+       
+               ::marker{
+            color: palevioletred;
+        }
+        ::selection{
+            color:brown;
+            background: lightblue;
+        }
+         </style>
+</head>
+<body>
+    <p class="one">Ocean, continuous body of salt water that is contained in enormous basins on Earth’s surface.</p>
+    <p class="two">When viewed from space, the predominance of Earth’s oceans is readily apparent. The oceans and their marginal seas cover nearly 71 percent of Earth’s surface, with an average depth of 3,688 metres (12,100 feet).</p>
+    <p class="three">The exposed land occupies the remaining 29 percent of the planetary surface and has a mean elevation of about 840 metres (approximately 2,755 feet). </p>
+    <p class="four">Actually, all the elevated land could be hidden under the oceans and Earth reduced to a smooth sphere that would be completely covered by a continuous layer of seawater more than 2,600 metres (8,530 feet) deep. This is known as the sphere depth of the oceans and serves to underscore the abundance of water on Earth’s surface.</p>
+    <p class="five">
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ul>
+    </p>
+</body>
+</html>

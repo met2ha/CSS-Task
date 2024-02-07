@@ -1,0 +1,94 @@
+
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:darkred;
+            color: gold;
+        }
+        div{
+            display: grid;
+            column-gap: 15px;
+            grid-template-columns:auto auto auto;
+            background-color: burlywood;
+            row-gap: 50px;
+            }
+            .dubai{
+                background-image: url(data:image/png;base64,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);
+                height: 200px;
+                width: 230px;
+            }
+            .dubai:hover{
+                background-image: url(https://images.pexels.com/photos/2044434/pexels-photo-2044434.jpeg?auto=compress&cs=tinysrgb&w=600);
+                height:  400px;
+                width: 500px;
+            }
+            .thailand{
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiunWm1tRfe2We6UgVChFw7VCMjw9dENjwxw&usqp=CAU);
+                height: 200px;
+                width: 250px;
+            }
+            .thailand:hover{
+                background-image: url(https://images.pexels.com/photos/3538245/pexels-photo-3538245.jpeg?auto=compress&cs=tinysrgb&w=600);
+                height: 500px;
+                width: 500px;
+            }
+            .singapore{
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5vztYgDSSAYSfoA4rI_F5lIEBnUobUtxGOw&usqp=CAU);
+                height: 190px;
+                width: 250px;
+            }
+            .singapore:hover{
+                background-image: url(https://images.pexels.com/photos/326787/pexels-photo-326787.jpeg?auto=compress&cs=tinysrgb&w=600);
+                height:500px;
+                width: 500px;
+            }
+            .bali{
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkuL-ArjL_G63jpLvfgyUSnmPSYOupI2_zCQ&usqp=CAU);
+                height: 200px;
+                width: 250px;
+            }
+            .bali:hover{
+                background-image: url(https://images.pexels.com/photos/1694621/pexels-photo-1694621.jpeg?auto=compress&cs=tinysrgb&w=600);
+                height: 500px;
+                width: 500px;
+            }
+            
+            .greece{
+                background-image: url(data:image/jpeg;base64,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);
+                height: 200px;
+                width: 250px;
+            }
+            .greece:hover{
+                background-image: url(https://images.pexels.com/photos/1010640/pexels-photo-1010640.jpeg?auto=compress&cs=tinysrgb&w=600);
+                height: 400px;
+                width: 500px;
+            }
+            .switzerland{
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAzfDSEPEFIw51jGvJH88L3YVEArvy4oBKPA&usqp=CAU);
+                height: 200px;
+                width: 239px;
+            }
+            .switzerland:hover{
+                background-image: url(https://images.pexels.com/photos/900097/pexels-photo-900097.jpeg?auto=compress&cs=tinysrgb&w=600);
+                height: 400px;
+                width: 500px;
+            }
+    </style>
+</head>
+<body>
+    <center><h1>TOURIST DESTINATIONS</h1></center>
+    <div>
+    <div class="dubai"><a href="https://www.tripadvisor.in/Attractions-g295424-Activities-Dubai_Emirate_of_Dubai.html" target="_blank"></a></div>
+    <div class="thailand"><a href="https://www.booking.com/country/th.en-gb.html?aid=1148957;label=th-OO0cAwO0nQPIzG073wPIXgS589181018154:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-2141081490:lp1007810:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YYriJK-Ikd_d_R21tvRGSUo;ws=&gclid=CjwKCAjwseSoBhBXEiwA9iZtxpgKyJLv8pfzm5o-PI_tzfBVFgwoMOAk0rY_bJocTu1xEc01PN0WqBoCZHkQAvD_BwE" target="_blank"></a></div>
+    <div class="singapore"><a href="https://www.thomascook.in/international-tourism/places-to-visit-in-singapore" target="_blank"></a></div>
+    <div class="bali"><a href="https://www.tripadvisor.in/Attractions-g294226-Activities-Bali.html" target="_blank"></a></div>
+    <div class="greece"><a href="https://greeceforvisitors.com/8-best-tourist-attractions-in-greece/" target="_blank"></a></div>
+    <div class="switzerland"><a href="https://www.tripadvisor.in/Attractions-g188045-Activities-Switzerland.html" target="_blank"></a></div>
+    </div>
+</body>
+</html>
